@@ -1,0 +1,19 @@
+flowchart TD
+    U[President Horne] --> CB[Command Bridge]
+
+    CB --> O[Project Overseer]
+    CB --> CC[Council Chamber]
+    CB --> DR[Director Rooms]
+    CB --> AA[ARES Armory]
+    CB --> AV[Artifact Vault]
+    CB --> ML[Memory Loom]
+
+    DR --> DFILES[Real files in directors/]
+    AA --> AFILES[Real files in ares/]
+    AV --> DOCS[Real project files]
+    ML --> META[Real files in docs/meta/]
+
+    O --> DFILES
+    DFILES --> AV
+    AFILES --> AV
+    META --> ML

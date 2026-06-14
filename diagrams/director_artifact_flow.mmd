@@ -1,0 +1,15 @@
+sequenceDiagram
+    participant User as President Horne
+    participant Overseer as Project Overseer
+    participant Director as Director
+    participant ARES as ARES Protocol
+    participant Vault as Artifact Vault
+    participant Memory as Memory Loom
+
+    User->>Overseer: Gives mission
+    Overseer->>Director: Routes task
+    Director->>ARES: Consults protocol if useful
+    ARES-->>Director: Returns workflow guidance
+    Director->>Vault: Creates or updates artifact
+    Director->>Memory: Logs decision or action
+    Overseer-->>User: Reports result
