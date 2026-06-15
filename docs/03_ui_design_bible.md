@@ -287,3 +287,19 @@ A first-time viewer should understand:
 - the system is futuristic without being ridiculous
 
 The interface should make the user want to command it.
+
+## Sprint 2 Token Expansion
+
+The first concrete token draft lives in `docs/10_design_tokens.md`.
+
+Sprint 2 should refine the interface from a working shell into a recognizable Project Overseer identity by applying these rules:
+
+- use `void`, `obsidian`, and `iron` as the command foundation rather than default black/gray surfaces
+- reserve `signal` cyan for linked canon, active navigation, and system state
+- reserve `command` amber for mission focus, executive emphasis, and current directives
+- use `archive` violet only for Memory Loom and continuity surfaces
+- give Director cards distinct accent pairs without turning the interface into rainbow neon
+- keep room shells cinematic, layered, and operational
+- preserve source paths and real file references as part of the visual language
+
+The interface should not hide its repository-backed nature. Paths, artifacts, protocols, and memory records are part of the command workstation aesthetic.
