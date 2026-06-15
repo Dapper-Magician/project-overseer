@@ -16,6 +16,9 @@ This file indexes Project Overseer artifacts.
 - `docs/07_implementation_roadmap.md`
 - `docs/08_inspirations.md`
 - `docs/09_open_questions.md`
+- `docs/10_design_tokens.md`
+- `docs/11_local_dev_environment.md`
+- `docs/12_code_audit.md`
 
 ## Source Canon
 
